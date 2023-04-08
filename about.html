@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>parul website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Delicious+Handrawn&family=Josefin+Sans:wght@100&family=Poppins:ital,wght@0,300;0,400;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hidenMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="content.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+   <h1>About Us</h1>
+</section>
+
+<!--about us content-->
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the world's largest university</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Libero voluptatum optio similique dolore numquam quidem 
+                cum molestias eos. Nisi error reiciendis, ratione officia 
+                ducimus perspiciatis accusamus earum odit ut! Perspiciatis
+                 modi alias tempora rerum
+                 praesentium laboriosam quia nemo nisi aliquid!</p>
+                 <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="employee.jpg">
+        </div>
+    </div>
+    </section>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+     Quibusdam enim aut labore repellendus perspiciatis omnis dolore? 
+     Mollitia<br> accusamus quae optio et nobis saepe obcaecati rem atque.</p> 
+
+   <div class="icons">
+    <a href="https://www.facebook.com/profile.php?id=100064690176517"><i class="fa fa-facebook"></i></a>
+    <a href="https://www.instagram.com/shatrudhan4622/?fbclid=IwAR3OsRAFd41Ks_J7QoJwo9OWvKerzoqownjsLqujYTv6sUiRCR4Z-ozAo0Y"><i class="fa fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/in/shatrudhan-prasad-sharma-aa14ba24b/?midToken=AQEshNL3m0hLkA&midSig=2hecliElOUuGI1&trk=eml-email_accept_invite_single_01-header-14-profile&trkEmail=eml-email_accept_invite_single_01-header-14-profile-null-h5mmjd%7Elg7arvot%7Egg-null-neptune%2Fprofile%7Evanity%2Eview"><i class="fa fa-linkedin"></i></a>
+     <i class="fa fa-twitter"></i>
+   </div>
+   <p>Made with <i class="fa fa-heart-o"></i> by shatrudhan sharma</p>
+ </section>
+
+
+
+
+
+
+
+
+
+
+<!--Javascript for Toggle Menu-->
+<script>
+ var navLinks = document.getElementById("navLinks");
+ function showMenu(){
+     navLinks.style.right = "0";
+ }
+ function hidenMenu(){
+     navLinks.style.right = "-200px"; 
+ }
+
+</script>
+</body>
+</html>
